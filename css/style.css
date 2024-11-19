@@ -273,5 +273,27 @@ color: orange;
 }
 
 
+.whoareall{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-items: center;
+    font-size: 20px;
+}
+
+.whoarewe{
+     justify-items: center;
+     align-items: center;
+}
+
+.Skills{
+    justify-items: center;
+    list-style: none;
+    display: column;
+    flex-direction: column;
+
+}
 
 
