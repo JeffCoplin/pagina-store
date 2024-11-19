@@ -276,11 +276,11 @@ color: orange;
 .whoareall{
     display:grid;
     grid-template-columns: 1fr 1fr;
-    width: 100%;
-    height: auto;
-    align-items: center;
-    justify-items: center;
+    width: 90%;
     font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 5%
 }
 
 .whoarewe{
@@ -293,7 +293,11 @@ color: orange;
     list-style: none;
     display: column;
     flex-direction: column;
+    margin-left: 10%;
 
 }
 
+.whoareall h2{
+color: #FFA500;
+}
 
